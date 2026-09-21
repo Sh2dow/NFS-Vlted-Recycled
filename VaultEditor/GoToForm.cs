@@ -24,6 +24,7 @@ public sealed class GoToForm : Form
 
     private Button btnCancel;
 
+    [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
     public int SelectedLineNumber
     {
         [CompilerGenerated]
